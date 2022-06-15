@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ElSafa/static/css/main.b8dbe416.css",
-    "main.js": "/ElSafa/static/js/main.24c04ad3.js",
+    "main.js": "/ElSafa/static/js/main.890ab9d0.js",
     "static/js/787.071ac33f.chunk.js": "/ElSafa/static/js/787.071ac33f.chunk.js",
     "static/media/Bitmap.png": "/ElSafa/static/media/Bitmap.6f8fc7bddaad458c3e6f.png",
     "static/media/student.png": "/ElSafa/static/media/student.bd1c23d40433fba1465f.png",
@@ -11,11 +11,11 @@
     "static/media/Group 342.png": "/ElSafa/static/media/Group 342.3c5e86f648aa71d6caa5.png",
     "index.html": "/ElSafa/index.html",
     "main.b8dbe416.css.map": "/ElSafa/static/css/main.b8dbe416.css.map",
-    "main.24c04ad3.js.map": "/ElSafa/static/js/main.24c04ad3.js.map",
+    "main.890ab9d0.js.map": "/ElSafa/static/js/main.890ab9d0.js.map",
     "787.071ac33f.chunk.js.map": "/ElSafa/static/js/787.071ac33f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8dbe416.css",
-    "static/js/main.24c04ad3.js"
+    "static/js/main.890ab9d0.js"
   ]
 }
