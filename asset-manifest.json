@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ElSafa/static/css/main.5c7de17f.css",
+    "main.css": "/ElSafa/static/css/main.f2915cd7.css",
     "main.js": "/ElSafa/static/js/main.41079f2b.js",
     "static/js/787.071ac33f.chunk.js": "/ElSafa/static/js/787.071ac33f.chunk.js",
     "static/media/Bitmap.png": "/ElSafa/static/media/Bitmap.6f8fc7bddaad458c3e6f.png",
@@ -10,12 +10,12 @@
     "static/media/Group 7.png": "/ElSafa/static/media/Group 7.facb29c231269d2c59d3.png",
     "static/media/Group 342.png": "/ElSafa/static/media/Group 342.3c5e86f648aa71d6caa5.png",
     "index.html": "/ElSafa/index.html",
-    "main.5c7de17f.css.map": "/ElSafa/static/css/main.5c7de17f.css.map",
+    "main.f2915cd7.css.map": "/ElSafa/static/css/main.f2915cd7.css.map",
     "main.41079f2b.js.map": "/ElSafa/static/js/main.41079f2b.js.map",
     "787.071ac33f.chunk.js.map": "/ElSafa/static/js/787.071ac33f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c7de17f.css",
+    "static/css/main.f2915cd7.css",
     "static/js/main.41079f2b.js"
   ]
 }
