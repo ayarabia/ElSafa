@@ -23,7 +23,7 @@ function Footer() {
           </Col>
           <Col xs={12} md={4} className="mb-3">
             <h4 className="mb-4">الروابط</h4>
-            <div className="links d-flex align-items-center flex-wrap-wrap">
+            <div className="links d-flex align-items-center flex-wrap">
               <div className="ms-5">
                 <ul>
                   <li>
@@ -118,7 +118,7 @@ function Footer() {
               </a>
             </div>
             <h4 className="my-4">لمتابعة الاخبار</h4>
-            <div className="d-flex align-items-center   flex-wrap-wrap">
+            <div className="d-flex align-items-center  flex-wrap  ">
               <input type="text" />
               <Button className="btn">اشترك</Button>
             </div>

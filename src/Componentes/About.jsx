@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
   faFacebookF,
-  faGoogle,
+
   faLinkedinIn,
+  faGooglePlusG
 } from "@fortawesome/free-brands-svg-icons";
 import "../Assets/Styles/About.css";
 function About() {
@@ -13,7 +14,7 @@ function About() {
     <div className="about">
       <Container>
         <div className="lecturer">
-          <div className="box d-flex align-items-center  flex-wrap-wrap mb-4">
+          <div className="box d-flex align-items-center  mb-4">
             <div className="image">
               <img src={require("../Assets/Imags/Group 9.png")} alt="" />
             </div>
@@ -25,7 +26,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div className="box d-flex align-items-center  flex-wrap-wrap">
+          <div className="box d-flex align-items-center  ">
             <div className="image">
               <img src={require("../Assets/Imags/Group 9 (1).png")} alt="" />
             </div>
@@ -67,11 +68,11 @@ function About() {
           <Col xs={12} md={6}>
             <div className="content px-5">
               <ListGroup>
-                <ListGroup.Item className="d-flex align-items-center  flex-wrap-wrap justify-content-between p-4">
+                <ListGroup.Item className="d-flex align-items-center  justify-content-between p-4">
                   <p>نشر المحتوي</p>
                   <div className="icons">
                     <a className="icon me-3" href="#">
-                      <FontAwesomeIcon icon={faGoogle} />
+                      <FontAwesomeIcon icon={faGooglePlusG} />
                     </a>
                     <a className="icon me-3" href="#">
                       <FontAwesomeIcon icon={faLinkedinIn} />
@@ -84,17 +85,17 @@ function About() {
                     </a>
                   </div>
                 </ListGroup.Item>
-                <ListGroup.Item className="d-flex align-items-center  flex-wrap-wrap p-4 ">
+                <ListGroup.Item className="d-flex align-items-center   p-4 ">
                   <img src={require("../Assets/Imags/Icon (1).png")} alt="" />
 
                   <p className="me-4">يوجد ندواتين كل اسبوع </p>
                 </ListGroup.Item>
-                <ListGroup.Item className="d-flex align-items-center  flex-wrap-wrap p-4">
+                <ListGroup.Item className="d-flex align-items-center   p-4">
                   <img src={require("../Assets/Imags/Icon (1).png")} alt="" />
 
                   <p className="me-4">جميع النداوت مجانية من صفا نداوت </p>
                 </ListGroup.Item>
-                <ListGroup.Item className="d-flex align-items-center  flex-wrap-wrap p-4">
+                <ListGroup.Item className="d-flex align-items-center  p-4">
                   <img src={require("../Assets/Imags/Icon (1).png")} alt="" />
                   <p className="me-4">خطوات و نصائح في مجال الاقتصاد</p>
                 </ListGroup.Item>

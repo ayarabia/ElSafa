@@ -1,13 +1,14 @@
 import React from "react";
-import { Row, Col, Form, Button } from "react-bootstrap";
+import { Row, Col, Form, Button ,Container} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 import "../Assets/Styles/Contact.css";
 function Contact() {
   return (
     <div className="contact py-5">
-      <Row>
-        <Col xs={12} md={6} className="student">
+  
+
+        <div  className="student w-50">
           <div className="circels">
             <img
               src={require("../Assets/Imags/circelStudent.png")}
@@ -22,12 +23,12 @@ function Contact() {
               className="w-100"
             />
           </div>
-        </Col>
-        <Col xs={12} md={6} className="p-5 question">
+        </div>
+        <div  className="p-5 question w-50">
           {/* <span>
 <FontAwesomeIcon icon={faQuestion} />
 </span> */}
-          <div className="box d-flex align-items-center  flex-wrap-wrap ">
+          <div className="box d-flex align-items-center   ">
             <div>
               <img src={require("../Assets/Imags/question.png")} alt="" />
             </div>
@@ -52,8 +53,10 @@ function Contact() {
               ارسل
             </Button>
           </Form>
-        </Col>
-      </Row>
+        </div>
+    
+
+    
     </div>
   );
 }

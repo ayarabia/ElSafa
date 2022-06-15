@@ -15,7 +15,7 @@ function Header() {
   return (
     <div className="header">
       <div className="top">
-        <img src={require("../Assets/Imags/Group 7.png")} alt="" />
+        <img src={require("../Assets/Imags/Group 7.png")} alt="" className="w-100" />
       </div>
       <TopNav></TopNav>
       <NavBar></NavBar>
@@ -24,7 +24,7 @@ function Header() {
           <Col xs={12} md={6} className="light">
             <div className=" path d-flex align-items-center justify-content-between flex-wrap-wrap">
               <p>
-                <a href="#" className="light ms-2">
+                <a href="#" className="light ms-2 ">
                   الرئيسية
                 </a>{" "}
                 <span>
@@ -55,7 +55,7 @@ function Header() {
       </Container>
 
       <div className="down">
-        <img src={require("../Assets/Imags/Group 342.png")} alt="" />
+        <img src={require("../Assets/Imags/Group 342.png")} alt="" className="w-100" />
       </div>
     </div>
   );

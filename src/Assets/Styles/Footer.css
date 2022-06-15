@@ -33,4 +33,12 @@ color:  #5260AB;
 padding-left: 50px;
 padding-right: 50px;
     }
+    .footer input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer .btn{
+        margin: auto;
+    }
+   
 }
