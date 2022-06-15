@@ -1,0 +1,37 @@
+.tobnav .settings {
+    color: #fff;
+}
+.tobnav .settings h4 ,p{
+    margin: 0 !important;
+}
+.tobnav .settings form input{
+border: none !important;
+background-color: transparent ;
+
+
+}
+.tobnav .settings form .form-control{
+    color: #fff !important;
+}
+.tobnav .settings form .form-control:focus{
+    outline: none !important;
+    border: none !important;
+}
+.tobnav .settings form div{
+    border-bottom: 1px solid #ced4da !important;
+   
+}
+.tobnav .settings .calendar{
+    color:#51BFAD
+}
+.tobnav .settings  .person{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #303A6C;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

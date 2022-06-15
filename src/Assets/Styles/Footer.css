@@ -1,0 +1,36 @@
+.footer{
+    border-top: 1px solid #ced4da
+}
+.footer .links ul {
+    padding: 0 !important;
+}
+.footer .links li{
+    list-style: none;
+  
+}
+
+.footer .links li a ,.footer .logo p{
+
+color:  #5260AB;
+}
+.footer .icons a{
+    color: #a2a9d0}
+
+.footer input{
+    padding: 4px  0!important;
+ margin-left: -5px;
+}
+.footer .btn{
+    background-color: #5260AB !important;
+    border-color: #5260AB !important;
+    padding: 5px 45px !important;
+}
+.footer .copy{
+    color: #5260AB;
+}
+@media (max-width:768px) {
+    .footer .row{
+padding-left: 50px;
+padding-right: 50px;
+    }
+}

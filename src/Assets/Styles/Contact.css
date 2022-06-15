@@ -1,0 +1,64 @@
+.contact .student{
+    /* height: 500px; */
+    background-color: #5260AB;
+    border-radius:25% 0 0 25%;
+    -webkit-border-radius:25% 0 0 25%;
+    -moz-border-radius:25% 0 0 25%;
+    -ms-border-radius:25% 0 0 25%;
+    -o-border-radius:25% 0 0 25%;
+    position: relative;
+  
+}
+.contact .student .circels{
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: 1 ;
+
+}
+
+.contact .student .image img {
+   margin-top: -90px;
+    z-index: 2;
+    position: relative;
+  
+   
+}
+.contact .student .image
+.contact .box h5{
+    color:  #5260AB;
+}
+.contact .box p{
+    color: rgb(163, 163, 163);
+}
+.contact .question  img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.contact .question form .form-label{
+    background-color: #fff;
+    color: #51BFAD;
+   
+}
+.contact .question form .form-control {
+margin-top: -18px !important;
+height: 90px;
+}
+.contact .question form .form-text{
+    color:#F69C5D !important
+}
+.contact .question form .btn{
+    background-color: #979797 !important;
+    border-color: #979797 !important;
+    padding: 5px 45px !important;
+}
+@media (max-width:768px) {
+.contact .student{ 
+   
+    border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0;
+}
+.contact .student .image img {
+    margin-top: 0;
+}
+}
