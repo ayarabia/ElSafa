@@ -21,7 +21,7 @@ function TopNav() {
           <Col
             xs={12}
             md={6}
-            className=" settings mb-2 d-flex align-items-center justify-content-between flex-wrap-wrap"
+            className=" settings mb-2 d-flex align-items-center justify-content-between "
           >
             <h4>EN</h4>
             <Form>
